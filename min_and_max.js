@@ -1,11 +1,10 @@
 /**
  * Given an array arr. Your task is to find the minimum and maximum elements in the array.
  * Note: Return a Pair that contains two elements the first one will be a minimum element and the second will be a maximum.
-*/
+ */
 
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-
 
 function findMinMax(arr) {
   let lengthOfArray = arr.length;
