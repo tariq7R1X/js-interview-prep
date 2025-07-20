@@ -36,7 +36,7 @@ function findKthSmallestNum(arr, k) {
   return arr[k - 1];
 }
 
-let k = 3;
-const arr = [7, 10, 4, 3, 20, 15];
+let k = 4;
+const arr = [2, 3, 1, 20, 17, 15];
 let kthElement = findKthSmallestNum(arr, k);
 console.log(kthElement);
